@@ -64,5 +64,4 @@ public class DiaryService {
                 .collect(Collectors.toList());
         return new PageImpl<>(diaryDtos, pageable, diaryPage.getTotalElements());
     }
-
 }
